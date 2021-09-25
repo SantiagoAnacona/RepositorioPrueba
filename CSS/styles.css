@@ -1,0 +1,84 @@
+* {
+    margin: 30px, 20px;
+    padding: 10px;
+  }
+  :root{
+    --colorprincipal:rgb(168, 14, 3);
+   --colorprimario:rgb(15, 146, 146);
+   --colorsecundario:rgb(170, 60, 133); 
+  }
+  .header {
+    border: 1px solid rgb(0, 0, 0);
+  background-color: var(--colorprimario);
+  margin: 20px 10px;
+  display: flex; 
+  border-radius: 25px;
+  }
+  .nombre1 {
+    border: 1px solid rgb(0, 0, 0);
+    width: 100%;
+    text-align: center;
+    border-radius: 25px;
+    margin: auto;
+  }
+  .nav {
+    text-align: center;
+    margin: 20px 10px;
+  }
+  .botonesPrincipales{
+    border: 1px solid var(--colorprincipal);
+    margin: auto;
+    border-radius: 50px;
+    background-color: var(--colorprincipal);
+    font-size: 2em;
+    text-decoration: none;
+  }
+  .botones{
+    border: 1px solid var(--colorprimario);
+    margin: auto;
+    border-radius: 50px;
+    background-color: var(--colorprimario);
+    font-size: 2em;
+    text-decoration: none;
+  }
+  .botones2{
+    
+    border: 1px solid var(--colorsecundario);
+    margin: auto;
+    border-radius: 50px;
+    background-color: var(--colorsecundario);
+    font-size: 0.80em;
+    text-decoration: none;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  li {
+    list-style: none;
+    padding: 5px;
+  }
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .section1{
+    border: 1px solid rgb(0, 0, 0);
+  background-color: var(--colorprimario);
+  margin: 20px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  border-radius: 25px;
+  }
+  .nombre2 {
+    border: 1px solid rgb(0, 0, 0);
+    width: 50%;
+    text-align: center;
+    border-radius: 25px;
+    margin: auto;
+  }
+  body{
+    background-color: rgb(46, 3, 66);
+  }
